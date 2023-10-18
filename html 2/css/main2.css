@@ -1,0 +1,37 @@
+main{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1440px;
+
+}
+
+
+.newinfo {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .newtext {
+    flex: 1;
+    padding: 100px;
+  }
+
+  .newtext p {
+    font-size: 16px;
+    margin: 20px 0 28px;
+    margin-bottom: 170px;
+  }
+  
+  .newimage {
+    flex: 1;
+    text-align: right;
+    padding-top: 100px;
+  }
+  
+  .newimage img {
+    margin-bottom: 70px;
+    max-width: 100%;
+  }
