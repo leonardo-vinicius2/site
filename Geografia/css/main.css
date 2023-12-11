@@ -1,0 +1,60 @@
+main{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1440px;
+
+}
+
+.info{
+    padding: 20px;
+    width: 100%;
+    max-width: 720px;
+}
+
+.info p{
+    text-align: justify;
+    font-size: 26px;
+    margin: 20px 28px;
+    font-weight: 900;
+
+}
+
+.info div{
+    display: flex;
+    column-gap: 38px;
+}
+
+.info div a, .info div button{
+    width: 50%;
+    padding: 10px 0 ;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+
+    transform: skew(-10deg);
+
+}
+
+.info div a{
+    background: var(--green);
+
+}
+
+.foto{
+    width: 100px;
+    height: 100px;
+    opacity: 0.6;   
+    transition: all 0.4s;
+}
+
+.foto:hover{
+    opacity: 1;
+    transform: translateY(-5px);
+    cursor: pointer;
+}

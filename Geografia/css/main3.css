@@ -1,0 +1,52 @@
+main{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1440px;
+
+}
+
+.info{
+  padding: 10px;
+  width: 100%;
+  max-width: 650px;
+}
+
+.info p{
+  text-align: justify;
+  font-size: 26px;
+  margin: 20px 0 28px;
+  padding-bottom: 100px;
+  font-weight: 900;
+
+}
+
+.info img{
+  padding-top: 100px;
+}
+
+
+.info div{
+  display: flex;
+  column-gap: 30px;
+}
+
+.img{
+  padding-top: 100px;
+  margin-right: 70px;
+}
+
+.foto{
+  width: 100px;
+  height: 100px;
+  opacity: 0.6;   
+  transition: all 0.4s;
+}
+
+.foto:hover{
+  opacity: 1;
+  transform: translateY(-5px);
+  cursor: pointer;
+}
