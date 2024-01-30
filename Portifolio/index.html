@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="index.css">
+    <script src="menu.js" defer="true"></script>
+
+</head>
+<body>    
+    <header>
+        <div class="interface">
+
+            <div class="logo">
+                <a href="#">
+                    <img src="img/logo.png" alt=" Logo do site" height="80" id="trilho">
+                </a>
+            </div>
+
+        <nav class="desktop">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Especialidades</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Projetos</a></li>
+            </ul>
+        </nav>
+
+        <div class="contato">
+            <a href="#">
+                <button>Contato</button>
+            </a>
+        </div>
+
+        <div class="abrir" id="menu1">
+            <i class="bi bi-list"></i>
+        </div>
+
+        <div class="mobile" id="mobile">
+            <div class="fechar">
+                <i class="bi bi-x-lg"></i>
+            </div>
+
+            <nav >
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Especialidades</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <div class="overM" id="overM">
+            
+        </div>
+    </div>
+    </header>
+
+    <main>
+        <section class="topoT">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txtt">
+                        <h1>TRANSFORMANDO IDEIAS EM REALIDADE DIGITAL<span>.</span></h1>
+                        <p>Criatividade e inovação andam lado a lado. Com uma combinação única de design impactante, 
+                            funcionalidade intuitiva e otimização para resultados,
+                             estou pronto(a) para criar a presença online dos seus sonhos.</p>
+
+                        <div class="contato">
+                            <a href="#">
+                                <button>Entre em contato</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="imgtop">
+                        <img src="img/eu.png" alt="" height="400">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="especial">
+            <div class="interface">
+                <h2 class="titulo"> MINHAS <span>ESPECIALIDADES.</span></h2>
+                <div class="flex">
+                    <div class="boxE">
+                        <i class="bi bi-code-slash"></i>
+                        <h3>Website</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, nulla rem dolore inventore delectus at.</p>
+                    </div>
+                    <div class="boxE">
+                        <i class="bi bi-card-image"></i>
+                        <h3>Edição de foto</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, nulla rem dolore inventore delectus at.</p>
+                    </div>
+                    <div class="boxE">
+                        <i class="bi bi-camera-reels"></i>
+                        <h3>Edição de Video</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, nulla rem dolore inventore delectus at.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="imgS">
+                        <img src="img/eu2.png" alt="" height="500" >
+                    </div>
+
+                    <div class="txtS">
+                        <h2> PRAZER,
+                           <span>SOU LEONARDO VINICIUS.</span></h2>  
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, nulla rem dolore inventore delectus at.</p>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, nulla rem dolore inventore delectus at.</p>
+                        <div class="social">
+                            <a href="#"> <button><i class="bi bi-instagram"></i></button></a>
+                            <a href="#"> <button><i class="bi bi-whatsapp"></i></button></a>
+                            <a href="#"> <button><i class="bi bi-tiktok"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio">
+            <div class="interface">
+                <h2 class="titulo">MEUS <span> PROJETOS.</span></h2>
+                <div class="flex">
+                    <div class="imgP" style="background-image: url(img/alan.jpg); height: 360px;  width: 360px;" >
+                    <div class="over"> ALAN
+
+                    </div>
+                </div>
+
+                    <div class="imgP" style="background-image: url(img/fnaf2.jpg); height: 360px;  width: 360px;">
+                        <div class="over"> FIVE NIGHTS
+                            AT FREDDY'S
+                            
+                        </div>
+                    </div>
+
+                    <div class="imgP" style="background-image: url(img/succubos.jpg); height: 360px;  width: 360px;">
+                        <div class="over"> SUCCUBOS
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="suporte">
+            <div class="interface">
+                <h2 class="titulo">FALE <span>COMIGO.</span></h2>
+                <form action="">
+                    <input type="text" placeholder="Seu Nome:" required>
+                    <input type="text" placeholder="Seu E-mail:" required>
+                    <input type="text" placeholder="Seu Telefone:" >
+                    <textarea name="" id="" placeholder="Sua Mensagem" required></textarea>
+                    <div class="enviar"><input type="submit" value="ENVIAR"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer> 
+        <div class="interface">
+            <div class="linha">
+                <div class="flex">
+                        <div class="logoF"> <img src="img/logo.png" alt="" height="80">
+                        </div>
+                    <div class="social">
+                        <a href="#"> <button><i class="bi bi-instagram"></i></button></a>
+                        <a href="#"> <button><i class="bi bi-whatsapp"></i></button></a>
+                        <a href="#"> <button><i class="bi bi-tiktok"></i></button></a>
+                    </div>
+                </div>
+            
+            </div>
+            
+
+            <div class="linha borda">
+                <p><i class="bi bi-envelope"></i> <a href="mailto:@leonardovinicius8c@gmail.com">@leonardovinicius8c@gmail.com</a></p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
